@@ -1,0 +1,607 @@
+{
+  "summary": [
+    {
+      "seconds": 5,
+      "condition": "clean",
+      "clips": 1200,
+      "top1": 0.995,
+      "top3": 0.9991666666666666,
+      "eer": 0.056666666666666664,
+      "threshold": 0.562523365020752,
+      "unknown_clips": 300,
+      "cross_top1": 0.5555555555555556,
+      "cross_clips": 180
+    },
+    {
+      "seconds": 5,
+      "condition": "noise_10dB",
+      "clips": 1200,
+      "top1": 0.985,
+      "top3": 0.9958333333333333,
+      "eer": 0.09333333333333334,
+      "threshold": 0.5229440927505493,
+      "unknown_clips": 300,
+      "cross_top1": 0.5055555555555555,
+      "cross_clips": 180
+    },
+    {
+      "seconds": 5,
+      "condition": "reverb",
+      "clips": 1200,
+      "top1": 0.9908333333333333,
+      "top3": 0.9983333333333333,
+      "eer": 0.07,
+      "threshold": 0.5405355095863342,
+      "unknown_clips": 300,
+      "cross_top1": 0.5333333333333333,
+      "cross_clips": 180
+    },
+    {
+      "seconds": 5,
+      "condition": "narrow_band",
+      "clips": 1200,
+      "top1": 0.98,
+      "top3": 0.9983333333333333,
+      "eer": 0.08333333333333333,
+      "threshold": 0.47184261679649353,
+      "unknown_clips": 300,
+      "cross_top1": 0.5055555555555555,
+      "cross_clips": 180
+    },
+    {
+      "seconds": 5,
+      "condition": "mp3_low",
+      "clips": 1200,
+      "top1": 0.9841666666666666,
+      "top3": 0.9975,
+      "eer": 0.09041666666666667,
+      "threshold": 0.47175243496894836,
+      "unknown_clips": 300,
+      "cross_top1": 0.39444444444444443,
+      "cross_clips": 180
+    },
+    {
+      "seconds": 5,
+      "condition": "phone_far",
+      "clips": 1200,
+      "top1": 0.9575,
+      "top3": 0.9958333333333333,
+      "eer": 0.15333333333333332,
+      "threshold": 0.4532063603401184,
+      "unknown_clips": 300,
+      "cross_top1": 0.4222222222222222,
+      "cross_clips": 180
+    },
+    {
+      "seconds": 10,
+      "condition": "clean",
+      "clips": 1200,
+      "top1": 0.9975,
+      "top3": 1.0,
+      "eer": 0.030416666666666668,
+      "threshold": 0.6341709494590759,
+      "unknown_clips": 300,
+      "cross_top1": 0.5944444444444444,
+      "cross_clips": 180
+    },
+    {
+      "seconds": 10,
+      "condition": "noise_10dB",
+      "clips": 1200,
+      "top1": 0.9933333333333333,
+      "top3": 1.0,
+      "eer": 0.06,
+      "threshold": 0.5821697115898132,
+      "unknown_clips": 300,
+      "cross_top1": 0.5666666666666667,
+      "cross_clips": 180
+    },
+    {
+      "seconds": 10,
+      "condition": "reverb",
+      "clips": 1200,
+      "top1": 0.995,
+      "top3": 0.9991666666666666,
+      "eer": 0.04666666666666667,
+      "threshold": 0.6062097549438477,
+      "unknown_clips": 300,
+      "cross_top1": 0.5555555555555556,
+      "cross_clips": 180
+    },
+    {
+      "seconds": 10,
+      "condition": "narrow_band",
+      "clips": 1200,
+      "top1": 0.9883333333333333,
+      "top3": 1.0,
+      "eer": 0.03708333333333333,
+      "threshold": 0.5414897203445435,
+      "unknown_clips": 300,
+      "cross_top1": 0.5944444444444444,
+      "cross_clips": 180
+    },
+    {
+      "seconds": 10,
+      "condition": "mp3_low",
+      "clips": 1200,
+      "top1": 0.9916666666666667,
+      "top3": 1.0,
+      "eer": 0.04083333333333333,
+      "threshold": 0.5330533385276794,
+      "unknown_clips": 300,
+      "cross_top1": 0.46111111111111114,
+      "cross_clips": 180
+    },
+    {
+      "seconds": 10,
+      "condition": "phone_far",
+      "clips": 1200,
+      "top1": 0.9783333333333334,
+      "top3": 0.9983333333333333,
+      "eer": 0.09666666666666666,
+      "threshold": 0.5034772753715515,
+      "unknown_clips": 300,
+      "cross_top1": 0.48333333333333334,
+      "cross_clips": 180
+    }
+  ],
+  "details": {
+    "5s/clean": {
+      "per_reciter": {
+        "abdul_basit": 1.0,
+        "basfar": 0.9833333333333333,
+        "sudais": 1.0,
+        "shaatree": 0.9833333333333333,
+        "ajamy": 1.0,
+        "alafasy": 0.9833333333333333,
+        "rifai": 0.9833333333333333,
+        "husary": 1.0,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 1.0,
+        "tablawi": 1.0,
+        "ayyoub": 1.0,
+        "jibreel": 1.0,
+        "shuraym": 1.0,
+        "bukhatir": 1.0,
+        "juhany": 1.0,
+        "dussary": 1.0,
+        "qatami": 0.9666666666666667,
+        "ghamdi": 1.0
+      },
+      "per_cross": {
+        "abdul_basit": 0.35,
+        "husary": 1.0,
+        "minshawy": 0.31666666666666665
+      },
+      "confusions": {
+        "basfar -> juhany": 1,
+        "shaatree -> alafasy": 1,
+        "alafasy -> qatami": 1,
+        "rifai -> ghamdi": 1,
+        "qatami -> ajamy": 1,
+        "qatami -> rifai": 1
+      }
+    },
+    "5s/noise_10dB": {
+      "per_reciter": {
+        "abdul_basit": 1.0,
+        "basfar": 1.0,
+        "sudais": 1.0,
+        "shaatree": 0.9666666666666667,
+        "ajamy": 1.0,
+        "alafasy": 0.9333333333333333,
+        "rifai": 0.9666666666666667,
+        "husary": 1.0,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 1.0,
+        "tablawi": 1.0,
+        "ayyoub": 1.0,
+        "jibreel": 0.8833333333333333,
+        "shuraym": 1.0,
+        "bukhatir": 1.0,
+        "juhany": 1.0,
+        "dussary": 0.9666666666666667,
+        "qatami": 0.9833333333333333,
+        "ghamdi": 1.0
+      },
+      "per_cross": {
+        "abdul_basit": 0.35,
+        "husary": 0.9833333333333333,
+        "minshawy": 0.18333333333333332
+      },
+      "confusions": {
+        "jibreel -> ghamdi": 5,
+        "alafasy -> ghamdi": 2,
+        "alafasy -> rifai": 2,
+        "rifai -> ghamdi": 2,
+        "dussary -> muaiqly": 2,
+        "shaatree -> alafasy": 1,
+        "shaatree -> ghamdi": 1,
+        "jibreel -> juhany": 1,
+        "jibreel -> rifai": 1,
+        "qatami -> rifai": 1
+      }
+    },
+    "5s/reverb": {
+      "per_reciter": {
+        "abdul_basit": 1.0,
+        "basfar": 0.9833333333333333,
+        "sudais": 1.0,
+        "shaatree": 0.9833333333333333,
+        "ajamy": 1.0,
+        "alafasy": 0.9333333333333333,
+        "rifai": 0.9833333333333333,
+        "husary": 1.0,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 1.0,
+        "tablawi": 1.0,
+        "ayyoub": 1.0,
+        "jibreel": 0.9833333333333333,
+        "shuraym": 1.0,
+        "bukhatir": 1.0,
+        "juhany": 1.0,
+        "dussary": 1.0,
+        "qatami": 0.9666666666666667,
+        "ghamdi": 0.9833333333333333
+      },
+      "per_cross": {
+        "abdul_basit": 0.31666666666666665,
+        "husary": 1.0,
+        "minshawy": 0.2833333333333333
+      },
+      "confusions": {
+        "alafasy -> qatami": 3,
+        "qatami -> ajamy": 2,
+        "basfar -> juhany": 1,
+        "shaatree -> alafasy": 1,
+        "alafasy -> ghamdi": 1,
+        "rifai -> ghamdi": 1,
+        "jibreel -> ghamdi": 1,
+        "ghamdi -> juhany": 1
+      }
+    },
+    "5s/narrow_band": {
+      "per_reciter": {
+        "abdul_basit": 1.0,
+        "basfar": 1.0,
+        "sudais": 1.0,
+        "shaatree": 0.9833333333333333,
+        "ajamy": 0.9833333333333333,
+        "alafasy": 0.8,
+        "rifai": 0.9333333333333333,
+        "husary": 1.0,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 1.0,
+        "tablawi": 1.0,
+        "ayyoub": 0.9666666666666667,
+        "jibreel": 1.0,
+        "shuraym": 0.9833333333333333,
+        "bukhatir": 1.0,
+        "juhany": 1.0,
+        "dussary": 0.9833333333333333,
+        "qatami": 0.9666666666666667,
+        "ghamdi": 1.0
+      },
+      "per_cross": {
+        "abdul_basit": 0.38333333333333336,
+        "husary": 0.9666666666666667,
+        "minshawy": 0.16666666666666666
+      },
+      "confusions": {
+        "alafasy -> ghamdi": 9,
+        "rifai -> ghamdi": 4,
+        "alafasy -> muaiqly": 2,
+        "ayyoub -> basfar": 2,
+        "qatami -> ajamy": 2,
+        "shaatree -> jibreel": 1,
+        "ajamy -> rifai": 1,
+        "alafasy -> qatami": 1,
+        "shuraym -> alafasy": 1,
+        "dussary -> rifai": 1
+      }
+    },
+    "5s/mp3_low": {
+      "per_reciter": {
+        "abdul_basit": 1.0,
+        "basfar": 1.0,
+        "sudais": 0.9666666666666667,
+        "shaatree": 0.9666666666666667,
+        "ajamy": 1.0,
+        "alafasy": 0.9166666666666666,
+        "rifai": 1.0,
+        "husary": 1.0,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 1.0,
+        "tablawi": 1.0,
+        "ayyoub": 0.95,
+        "jibreel": 0.9666666666666667,
+        "shuraym": 1.0,
+        "bukhatir": 1.0,
+        "juhany": 1.0,
+        "dussary": 0.9666666666666667,
+        "qatami": 1.0,
+        "ghamdi": 0.95
+      },
+      "per_cross": {
+        "abdul_basit": 0.08333333333333333,
+        "husary": 0.9666666666666667,
+        "minshawy": 0.13333333333333333
+      },
+      "confusions": {
+        "alafasy -> qatami": 3,
+        "alafasy -> rifai": 2,
+        "ayyoub -> basfar": 2,
+        "ghamdi -> qatami": 2,
+        "sudais -> jibreel": 1,
+        "sudais -> rifai": 1,
+        "shaatree -> basfar": 1,
+        "shaatree -> alafasy": 1,
+        "ayyoub -> ajamy": 1,
+        "jibreel -> ayyoub": 1
+      }
+    },
+    "5s/phone_far": {
+      "per_reciter": {
+        "abdul_basit": 0.9833333333333333,
+        "basfar": 1.0,
+        "sudais": 0.95,
+        "shaatree": 0.9833333333333333,
+        "ajamy": 1.0,
+        "alafasy": 0.85,
+        "rifai": 0.9,
+        "husary": 0.9666666666666667,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 0.9833333333333333,
+        "tablawi": 0.9666666666666667,
+        "ayyoub": 0.9833333333333333,
+        "jibreel": 0.8333333333333334,
+        "shuraym": 0.9833333333333333,
+        "bukhatir": 1.0,
+        "juhany": 0.9333333333333333,
+        "dussary": 0.8666666666666667,
+        "qatami": 0.9666666666666667,
+        "ghamdi": 1.0
+      },
+      "per_cross": {
+        "abdul_basit": 0.18333333333333332,
+        "husary": 0.9833333333333333,
+        "minshawy": 0.1
+      },
+      "confusions": {
+        "alafasy -> ghamdi": 8,
+        "dussary -> muaiqly": 7,
+        "rifai -> ghamdi": 6,
+        "jibreel -> ghamdi": 5,
+        "sudais -> bukhatir": 3,
+        "juhany -> rifai": 3,
+        "jibreel -> ajamy": 2,
+        "qatami -> ajamy": 2,
+        "abdul_basit -> rifai": 1,
+        "shaatree -> alafasy": 1
+      }
+    },
+    "10s/clean": {
+      "per_reciter": {
+        "abdul_basit": 1.0,
+        "basfar": 1.0,
+        "sudais": 1.0,
+        "shaatree": 1.0,
+        "ajamy": 1.0,
+        "alafasy": 1.0,
+        "rifai": 0.9666666666666667,
+        "husary": 1.0,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 1.0,
+        "tablawi": 1.0,
+        "ayyoub": 1.0,
+        "jibreel": 1.0,
+        "shuraym": 1.0,
+        "bukhatir": 1.0,
+        "juhany": 1.0,
+        "dussary": 1.0,
+        "qatami": 0.9833333333333333,
+        "ghamdi": 1.0
+      },
+      "per_cross": {
+        "abdul_basit": 0.4,
+        "husary": 1.0,
+        "minshawy": 0.38333333333333336
+      },
+      "confusions": {
+        "rifai -> ghamdi": 2,
+        "qatami -> ajamy": 1
+      }
+    },
+    "10s/noise_10dB": {
+      "per_reciter": {
+        "abdul_basit": 1.0,
+        "basfar": 1.0,
+        "sudais": 1.0,
+        "shaatree": 1.0,
+        "ajamy": 1.0,
+        "alafasy": 1.0,
+        "rifai": 0.9666666666666667,
+        "husary": 1.0,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 1.0,
+        "tablawi": 1.0,
+        "ayyoub": 1.0,
+        "jibreel": 0.9666666666666667,
+        "shuraym": 1.0,
+        "bukhatir": 1.0,
+        "juhany": 0.9833333333333333,
+        "dussary": 1.0,
+        "qatami": 0.95,
+        "ghamdi": 1.0
+      },
+      "per_cross": {
+        "abdul_basit": 0.48333333333333334,
+        "husary": 1.0,
+        "minshawy": 0.21666666666666667
+      },
+      "confusions": {
+        "qatami -> ajamy": 3,
+        "rifai -> ghamdi": 2,
+        "jibreel -> ghamdi": 2,
+        "juhany -> rifai": 1
+      }
+    },
+    "10s/reverb": {
+      "per_reciter": {
+        "abdul_basit": 1.0,
+        "basfar": 1.0,
+        "sudais": 1.0,
+        "shaatree": 0.9833333333333333,
+        "ajamy": 1.0,
+        "alafasy": 1.0,
+        "rifai": 0.9666666666666667,
+        "husary": 1.0,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 1.0,
+        "tablawi": 1.0,
+        "ayyoub": 1.0,
+        "jibreel": 1.0,
+        "shuraym": 1.0,
+        "bukhatir": 1.0,
+        "juhany": 1.0,
+        "dussary": 1.0,
+        "qatami": 0.95,
+        "ghamdi": 1.0
+      },
+      "per_cross": {
+        "abdul_basit": 0.38333333333333336,
+        "husary": 1.0,
+        "minshawy": 0.2833333333333333
+      },
+      "confusions": {
+        "qatami -> ajamy": 3,
+        "rifai -> ghamdi": 2,
+        "shaatree -> ayyoub": 1
+      }
+    },
+    "10s/narrow_band": {
+      "per_reciter": {
+        "abdul_basit": 1.0,
+        "basfar": 1.0,
+        "sudais": 0.9833333333333333,
+        "shaatree": 1.0,
+        "ajamy": 1.0,
+        "alafasy": 0.9166666666666666,
+        "rifai": 0.9666666666666667,
+        "husary": 0.9833333333333333,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 1.0,
+        "tablawi": 1.0,
+        "ayyoub": 0.9833333333333333,
+        "jibreel": 0.9833333333333333,
+        "shuraym": 1.0,
+        "bukhatir": 1.0,
+        "juhany": 1.0,
+        "dussary": 1.0,
+        "qatami": 0.95,
+        "ghamdi": 1.0
+      },
+      "per_cross": {
+        "abdul_basit": 0.6166666666666667,
+        "husary": 1.0,
+        "minshawy": 0.16666666666666666
+      },
+      "confusions": {
+        "alafasy -> ghamdi": 5,
+        "qatami -> ajamy": 3,
+        "rifai -> ghamdi": 2,
+        "sudais -> bukhatir": 1,
+        "husary -> abdul_basit": 1,
+        "ayyoub -> basfar": 1,
+        "jibreel -> abdul_basit": 1
+      }
+    },
+    "10s/mp3_low": {
+      "per_reciter": {
+        "abdul_basit": 1.0,
+        "basfar": 1.0,
+        "sudais": 0.9166666666666666,
+        "shaatree": 0.9833333333333333,
+        "ajamy": 1.0,
+        "alafasy": 0.9833333333333333,
+        "rifai": 0.9666666666666667,
+        "husary": 1.0,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 1.0,
+        "tablawi": 1.0,
+        "ayyoub": 1.0,
+        "jibreel": 1.0,
+        "shuraym": 1.0,
+        "bukhatir": 1.0,
+        "juhany": 1.0,
+        "dussary": 1.0,
+        "qatami": 0.9833333333333333,
+        "ghamdi": 1.0
+      },
+      "per_cross": {
+        "abdul_basit": 0.18333333333333332,
+        "husary": 1.0,
+        "minshawy": 0.2
+      },
+      "confusions": {
+        "sudais -> rifai": 4,
+        "rifai -> ghamdi": 2,
+        "sudais -> bukhatir": 1,
+        "shaatree -> alafasy": 1,
+        "alafasy -> ghamdi": 1,
+        "qatami -> ajamy": 1
+      }
+    },
+    "10s/phone_far": {
+      "per_reciter": {
+        "abdul_basit": 1.0,
+        "basfar": 1.0,
+        "sudais": 0.9166666666666666,
+        "shaatree": 0.9833333333333333,
+        "ajamy": 1.0,
+        "alafasy": 0.9,
+        "rifai": 0.9666666666666667,
+        "husary": 1.0,
+        "hudhaify": 1.0,
+        "muaiqly": 1.0,
+        "minshawy": 1.0,
+        "tablawi": 1.0,
+        "ayyoub": 1.0,
+        "jibreel": 0.9666666666666667,
+        "shuraym": 1.0,
+        "bukhatir": 1.0,
+        "juhany": 0.95,
+        "dussary": 0.95,
+        "qatami": 0.9333333333333333,
+        "ghamdi": 1.0
+      },
+      "per_cross": {
+        "abdul_basit": 0.38333333333333336,
+        "husary": 0.95,
+        "minshawy": 0.11666666666666667
+      },
+      "confusions": {
+        "alafasy -> ghamdi": 6,
+        "qatami -> ajamy": 4,
+        "sudais -> bukhatir": 3,
+        "juhany -> rifai": 3,
+        "dussary -> muaiqly": 3,
+        "sudais -> ajamy": 2,
+        "rifai -> ghamdi": 2,
+        "jibreel -> ghamdi": 2,
+        "shaatree -> ghamdi": 1
+      }
+    }
+  }
+}

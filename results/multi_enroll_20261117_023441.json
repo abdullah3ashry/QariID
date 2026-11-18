@@ -1,0 +1,80 @@
+[
+  {
+    "condition": "clean",
+    "scheme": "single",
+    "all_20_same_recording": 0.9975,
+    "abdul_basit": 0.9833333333333333,
+    "abdul_basit_clips": 60,
+    "abdul_basit_mistaken_for": "husary",
+    "husary": 1.0,
+    "husary_clips": 60,
+    "minshawy": 0.75,
+    "minshawy_clips": 60,
+    "minshawy_mistaken_for": "bukhatir"
+  },
+  {
+    "condition": "clean",
+    "scheme": "multi_avg",
+    "all_20_same_recording": 0.9966666666666667,
+    "abdul_basit": 0.9833333333333333,
+    "abdul_basit_clips": 60,
+    "abdul_basit_mistaken_for": "husary",
+    "husary": 1.0,
+    "husary_clips": 60,
+    "minshawy": 0.48333333333333334,
+    "minshawy_clips": 60,
+    "minshawy_mistaken_for": "husary"
+  },
+  {
+    "condition": "clean",
+    "scheme": "multi_max",
+    "all_20_same_recording": 0.9925,
+    "abdul_basit": 0.9833333333333333,
+    "abdul_basit_clips": 60,
+    "abdul_basit_mistaken_for": "husary",
+    "husary": 1.0,
+    "husary_clips": 60,
+    "minshawy": 0.65,
+    "minshawy_clips": 60,
+    "minshawy_mistaken_for": "husary"
+  },
+  {
+    "condition": "phone_far",
+    "scheme": "single",
+    "all_20_same_recording": 0.9783333333333334,
+    "abdul_basit": 0.9833333333333333,
+    "abdul_basit_clips": 60,
+    "abdul_basit_mistaken_for": "rifai",
+    "husary": 1.0,
+    "husary_clips": 60,
+    "minshawy": 0.8666666666666667,
+    "minshawy_clips": 60,
+    "minshawy_mistaken_for": "ghamdi"
+  },
+  {
+    "condition": "phone_far",
+    "scheme": "multi_avg",
+    "all_20_same_recording": 0.9725,
+    "abdul_basit": 0.48333333333333334,
+    "abdul_basit_clips": 60,
+    "abdul_basit_mistaken_for": "bukhatir",
+    "husary": 1.0,
+    "husary_clips": 60,
+    "minshawy": 0.8833333333333333,
+    "minshawy_clips": 60,
+    "minshawy_mistaken_for": "husary"
+  },
+  {
+    "condition": "phone_far",
+    "scheme": "multi_max",
+    "all_20_same_recording": 0.97,
+    "abdul_basit": 0.9833333333333333,
+    "abdul_basit_clips": 60,
+    "abdul_basit_mistaken_for": "rifai",
+    "husary": 1.0,
+    "husary_clips": 60,
+    "minshawy": 0.85,
+    "minshawy_clips": 60,
+    "minshawy_mistaken_for": "husary"
+  }
+]
